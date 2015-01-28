@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xhr.GoodGallery"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="19"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+                 android:name=".GGApplication">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.iflytek.SmartBook.SmartBook" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RemoteGalleryActivity"
+                  android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".LocalGalleryActivity"
+                  android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name=".RemoteImageActivity"
+                  android:label="@string/app_name">
+
+        </activity>
+    </application>
+</manifest>

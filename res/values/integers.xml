@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="multicolumnpulltorefresh_placolumnnumber">3</integer>
+    <integer name="multicolumnpulltorefresh_plaLandscapecolumnnumber">4</integer>
+</resources>
